@@ -1,22 +1,36 @@
 {
-	"movies": [
+	"Albums": [
 		{
-			"Title": "Lost In Translation",
-			"Director": "Sofia Coppola",
-			"Rating": "R",
-			"Year": "2003"
+			"Title": "channel ORANGE",
+			"Artist": "Frank Ocean",
+			"Genre": "Alternative",
+			"Best Song": "Pink Matter",
+			"Year": "2012",
+			"Album in one Sentence": "Always the 18-year-old running around small town contemplating about life"
 		},
 		{
-			"Title": "Casino Royale",
-			"Director": "Martin Campbell",
-			"Rating": "PG-13",
-			"Year": "2006"
+			"Title": "Flower Boy",
+			"Artist": "Tyler the Creator",
+			"Genre": "Hip Hop",
+			"Best Song": "911/Mr. Lonely",
+			"Year": "2017",
+			"Album in one Sentence": "Falling into and waking up with Tyler from his teenage dream to find yourself"
 		},
 		{
-			"Title": "The Dark Knight",
-			"Director": "Christopher Nolan",
-			"Rating": "PG-13",
-			"Year": "2008"
+			"Title": "The Divine Feminine",
+			"Artist": "Mac Miller",
+			"Genre": "Hip Hop",
+			"Best Song": "Skin",
+			"Year": "2016",
+			"Album in one Sentence": "Mac Miller's imagination with jazz/gospel/hiphop fusion"
+		},
+		{
+			"Title": "Because the Internet",
+			"Artist": "Childish Gambino",
+			"Genre": "Hip Hop",
+			"Best Song": "III. Telegraph Ave.('Oakland' by Lioyd)",
+			"Year": "2013",
+			"Album in one Sentence": "Multi-talented Donald at his best"
 		}
 	]
 }

@@ -1,17 +1,17 @@
-<!DOCTYPE HTML>  
-<html>  
+<!DOCTYPE HTML>
+<html>
     <header>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="/Example_CSS_Style Templates/style3.css">
         <link rel="stylesheet" href="table_style.css">
-        <title>My Webpage Title</title>
+        <title>Last Album Standing</title>
     </header>
-    <body>  
+    <body>
         <!---Navigation--->
         <!--This section of code defines the navigation bar at the top of the page.  The classes used here are defined in the style.css file.-->
         <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
             <div class="container">
                 <!--This code defines the "My Webpage" link in the top right corner of the navigation pane-->
-                <a class="navbar-brand" href="">My Webpage</a>
+                <a class="navbar-brand" href="./index.html">Home</a>
                 <!--This code defines the "List" link in the top left corner of the navigation pane-->
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="./list.html">List</a></li>
@@ -19,8 +19,13 @@
             </div>
         </nav>
         <!--This code creates the middle section of the webpage-->
-        <header class="masthead bg-primary text-white text-center">
-            <h1>My Movies</h1>
+        <header class="masthead bg-primary text-white text-center" style="height:100px;">
+            <h1>My Album Shelf</h1>
+            <img src="https://i.scdn.co/image/ab67616d00001e027aede4855f6d0d738012e2e5" alt="" style="height:180px; width:180px; position: absolute; top: 15%; right: 7%">
+            <img src="https://i.scdn.co/image/ab67616d0000b2738940ac99f49e44f59e6f7fb3" alt="" style="height:180px; width:180px; position: absolute; top: 60%; right: 7%">
+            <img src="https://i.scdn.co/image/ab67616d0000b2732e92f776279eaf45d14a33fd" alt="" style="height:180px; width:180px; position: absolute; top: 105%; right: 7%">
+            <img src="https://i.scdn.co/image/ab67616d0000b273fce23dadb51975ebf2e9d75c" alt="" style="height:180px; width:180px; position: absolute; top: 150%; right: 7%">
+
         </header>
         <!--Here is where the table will be loaded in.  The actual table will be loaded in JavaScript.-->
         <section class="mt-5 text-center">
@@ -46,7 +51,7 @@
                 This section creates the base table and finds the root json node.
                 */
                 var jsonTable = document.createElement("table");
-                var tr = jsonTable.insertRow(-1);   
+                var tr = jsonTable.insertRow(-1);
                 jsonTable.style.width = "75%";
                 let root;
                 for (let prop in data) {
@@ -58,10 +63,10 @@
                 */
                 let headers = Object.keys(data[root][0]);
                 headers.forEach(header => {
-                    var th = document.createElement("th");      
+                    var th = document.createElement("th");
                     th.innerHTML = header;
                     tr.appendChild(th);
-                })              
+                })
                 /*
                 This section adds the data into each row of the list
                 */
@@ -80,5 +85,5 @@
                 divContainer.innerHTML = "";
                 divContainer.appendChild(jsonTable);
             });
-    </script>  
+    </script>
 </html>
