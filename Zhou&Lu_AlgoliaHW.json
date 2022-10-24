@@ -1,0 +1,641 @@
+[{
+   "artist": "Johannes Andersson",
+   "year": 2016,
+   "image": "https://images.unsplash.com/photo-1472396961693-142e6e269027?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=704&q=80",
+   "environment":{
+       "environment_level0": "Outdoor",
+       "environment_level1": "Outdoor > Forest",
+       "environment_level2": "Outdoor > Forest > Day"
+     },
+   "location":{
+       "location_level0": "America",
+       "location_level1": "America > USA",
+       "location_level2": "America > USA > Yosemite"
+     },
+   "weather":{
+       "weather_level0": "Sunny",
+       "weather_level1": "Sunny > Normal",
+       "weather_level2": "Sunny > Normal > Without people"
+     }
+  },
+  {
+    "artist": "Cayetano Gil",
+    "year": 2018,
+    "image": "https://images.unsplash.com/photo-1516926133025-705ee504386d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80",
+    "environment":{
+        "environment_level0": "Outdoor",
+        "environment_level1": "Outdoor > Desert",
+        "environment_level2": "Outdoor > Desert > Day"
+      },
+    "location":{
+        "location_level0": "America",
+        "location_level1": "America > USA",
+        "location_level2": "America > USA > Monument Valley"
+      },
+    "weather":{
+        "weather_level0": "Sunny",
+        "weather_level1": "Sunny > Normal",
+        "weather_level2": "Sunny > Normal > Without people"
+      }
+  },
+  {
+    "artist": "Danielle Dolson",
+    "year": 2017,
+    "image": "https://images.unsplash.com/photo-1501186758051-167ca3c0fde8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80",
+    "environment":{
+        "environment_level0": "Indoor",
+        "environment_level1": "Indoor > Close",
+        "environment_level2": "Indoor > Close > Window"
+      },
+    "location":{
+        "location_level0": "America",
+        "location_level1": "America > USA",
+        "location_level2": "America > USA > Knoxville"
+      },
+    "weather":{
+        "weather_level0": "Rainy",
+        "weather_level1": "Rainy > Normal",
+        "weather_level2": "Rainy > Normal > Without people"
+      }
+  },
+  {
+    "artist": "Nick Nice",
+    "year": 2017,
+    "image": "https://images.unsplash.com/photo-1501691223387-dd0500403074?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=654&q=80",
+    "environment":{
+        "environment_level0": "Indoor",
+        "environment_level1": "Indoor > Close",
+        "environment_level2": "Indoor > Close > Window"
+      },
+    "weather":{
+        "weather_level0": "Rainy",
+        "weather_level1": "Rainy > Normal",
+        "weather_level2": "Rainy > Normal > Without people"
+      }
+  },
+  {
+    "artist": "Spacejoy",
+    "year": 2021,
+    "image": "https://images.unsplash.com/photo-1631510390389-c1e4fb20ff31?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1992&q=80",
+    "environment":{
+        "environment_level0": "Indoor",
+        "environment_level1": "Indoor > Mid-range",
+        "environment_level2":["Indoor > Mid-range > Sofa/chair", "Indoor > Mid-range > Cabinet"]
+      },
+    "location":{
+        "location_level0": "America",
+        "location_level1": "America > USA",
+        "location_level2": "America > USA > Dulles"
+      },
+    "weather":{
+        "weather_level0": "Sunny",
+        "weather_level1": "Sunny > Normal",
+        "weather_level2": "Sunny > Normal > Without people"
+      }
+  },
+  {
+    "artist": "Jon Tyson",
+    "year": 2018,
+    "image": "https://images.unsplash.com/photo-1528822855841-e8bf3134cdc9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+    "environment":{
+        "environment_level0": "Indoor",
+        "environment_level1": "Indoor > Mid-range",
+        "environment_level2": "Indoor > Mid-range > Window"
+      },
+    "weather":{
+        "weather_level0": "Sunny",
+        "weather_level1": "Sunny > Normal",
+        "weather_level2": "Sunny > Normal > Without people"
+      }
+  },
+  {
+    "artist": "Sebastian Marx",
+    "year": 2015,
+    "image": "https://images.unsplash.com/photo-1446057468532-87b7525217d6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1771&q=80",
+    "environment":{
+        "environment_level0": "Indoor",
+        "environment_level1": "Indoor > Mid-range",
+        "environment_level2":["Indoor > Mid-range > Window", "Indoor > Mid-range > Plant"]
+      },
+    "location":{
+        "location_level0": "Europe",
+        "location_level1": "Europe > Germany",
+        "location_level2": "Europe > Germany > Berlin"
+      },
+    "weather":{
+        "weather_level0": "Sunny",
+        "weather_level1": "Sunny > Normal",
+        "weather_level2": "Sunny > Normal > Without people"
+      }
+  },
+  {
+    "artist": "Jason Briscoe",
+    "year": 2017,
+    "image": "https://images.unsplash.com/photo-1502005097973-6a7082348e28?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1287&q=80",
+    "environment":{
+        "environment_level0": "Indoor",
+        "environment_level1": "Indoor > Far",
+        "environment_level2": "Indoor > Far > Cabinet"
+      },
+    "location":{
+        "location_level0": "Africa",
+        "location_level1": "Africa > South Africa",
+        "location_level2": "Africa > South Africa > Dolphin Coast"
+      },
+    "weather":{
+        "weather_level0": "Sunny",
+        "weather_level1": "Sunny > Normal",
+        "weather_level2": "Sunny > Normal > Without people"
+      }
+  },
+  {
+    "artist": "Erica Marsland Huynh",
+    "year": 2021,
+    "image": "https://images.unsplash.com/photo-1611796822798-11bf6dd2569a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1328&q=80",
+    "environment":{
+        "environment_level0": "Indoor",
+        "environment_level1": "Indoor > Mid-range",
+        "environment_level2": "Indoor > Mid-range > Table"
+      },
+    "location":{
+        "location_level0": "America",
+        "location_level1": "America > USA",
+        "location_level2": "America > USA > Rhode Island"
+      },
+    "weather":{
+        "weather_level0": "Snowy",
+        "weather_level1": "Snowy > Normal",
+        "weather_level2": "Snowy > Normal > Without people"
+      }
+  },
+  {
+    "artist": "Gaëtan Werp",
+    "year": 2020,
+    "image": "https://images.unsplash.com/photo-1584961630907-3fdb471c2848?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1335&q=80",
+    "environment":{
+        "environment_level0": "Outdoor",
+        "environment_level1": "Outdoor > Forest",
+        "environment_level2": "Outdoor > Forest > Day"
+      },
+    "weather":{
+        "weather_level0": "Sunny",
+        "weather_level1": "Sunny > Normal",
+        "weather_level2": "Sunny > Normal > Without people"
+      }
+  },
+  {
+    "artist": "Shot by Cerqueira",
+    "year": 2019,
+    "image": "https://images.unsplash.com/photo-1548263594-a71ea65a8598?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1476&q=80",
+    "environment":{
+        "environment_level0": "Outdoor",
+        "environment_level1": "Outdoor > Water",
+        "environment_level2": "Outdoor > Water > Day"
+      },
+    "location":{
+        "location_level0": "America",
+        "location_level1": "America > Brazil",
+        "location_level2": "America > Brazil > Rio"
+      },
+    "weather":{
+        "weather_level0": "Sunny",
+        "weather_level1": "Sunny > Normal",
+        "weather_level2": "Sunny > Normal > Without people"
+      }
+  },
+  {
+    "artist": "Giorgio Parravicini",
+    "year": 2016,
+    "image": "https://images.unsplash.com/photo-1473580044384-7ba9967e16a0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+    "environment":{
+        "environment_level0": "Outdoor",
+        "environment_level1": "Outdoor > Desert",
+        "environment_level2": "Outdoor > Desert > Day"
+      },
+    "location":{
+        "location_level0": "Asia",
+        "location_level1": "Asia > Oman",
+        "location_level2": "Asia > Oman > Muscat"
+      },
+    "weather":{
+        "weather_level0": "Sunny",
+        "weather_level1": "Sunny > Heavy",
+        "weather_level2": "Sunny > Heavy > Without people"
+      }
+  },
+  {
+    "artist": "David Law",
+    "year": 2015,
+    "image": "https://images.unsplash.com/photo-1447601932606-2b63e2e64331?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1358&q=80",
+    "environment":{
+        "environment_level0": "Outdoor",
+        "environment_level1": "Outdoor > Desert",
+        "environment_level2": "Outdoor > Desert > Day"
+      },
+    "location":{
+        "location_level0": "Asia",
+        "location_level1": "Asia > UAE",
+        "location_level2": "Asia > UAE > Dubai"
+      },
+    "weather":{
+        "weather_level0": "Sunny",
+        "weather_level1": "Sunny > Heavy",
+        "weather_level2": "Sunny > Heavy > Without people"
+      }
+  },
+  {
+    "artist": "Josh Hild",
+    "year": 2018,
+    "image": "https://images.unsplash.com/photo-1534534026406-1981db7e5a97?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1365&q=80",
+    "environment":{
+        "environment_level0": "Outdoor",
+        "environment_level1": "Outdoor > City",
+        "environment_level2": "Outdoor > City > Night"
+      },
+    "location":{
+        "location_level0": "America",
+        "location_level1": "America > USA",
+        "location_level2": "America > USA > Cincinnati"
+      },
+    "weather":{
+        "weather_level0": "Rainy",
+        "weather_level1": "Rainy > Normal",
+        "weather_level2": "Rainy > Normal > Without people"
+      }
+  },
+  {
+    "artist": "Matthias Kinsella",
+    "year": 2017,
+    "image": "https://images.unsplash.com/photo-1512991812186-4f940b265125?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1287&q=80",
+    "environment":{
+        "environment_level0": "Outdoor",
+        "environment_level1": "Outdoor > City",
+        "environment_level2": "Outdoor > City > Day"
+      },
+    "location":{
+        "location_level0": "Europe",
+        "location_level1": "Europe > Netherlands",
+        "location_level2": "Europe > Netherlands > Maastricht"
+      },
+    "weather":{
+        "weather_level0": "Snowy",
+        "weather_level1": "Snowy > Normal",
+        "weather_level2": "Snowy > Normal > With people"
+      }
+  },
+  {
+    "artist": "Josh Hild",
+    "year": 2019,
+    "image": "https://images.unsplash.com/photo-1551582045-6ec9c11d8697?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1365&q=80",
+    "environment":{
+        "environment_level0": "Outdoor",
+        "environment_level1": "Outdoor > City",
+        "environment_level2": "Outdoor > City > Night"
+      },
+    "weather":{
+        "weather_level0": "Snowy",
+        "weather_level1": "Snowy > Heavy",
+        "weather_level2": "Snowy > Heavy > Without people"
+      }
+  },
+  {
+    "artist": "Marina Yalanska",
+    "year": 2021,
+    "image": "https://images.unsplash.com/photo-1638527376517-2d54cc0beb8c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+    "environment":{
+        "environment_level0": "Outdoor",
+        "environment_level1": "Outdoor > Forest",
+        "environment_level2": "Outdoor > Forest > Day"
+      },
+    "location":{
+        "location_level0": "Europe",
+        "location_level1": "Europe > Ukraine",
+        "location_level2": "Europe > Ukraine > Ukraine"
+      },
+    "weather":{
+        "weather_level0": "Snowy",
+        "weather_level1": "Snowy > Heavy",
+        "weather_level2": "Snowy > Heavy > Without people"
+      }
+  },
+  {
+    "artist": "Adam Chang",
+    "year": 2017,
+    "image": "https://images.unsplash.com/photo-1491002052546-bf38f186af56?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1208&q=80",
+    "environment":{
+        "environment_level0": "Outdoor",
+        "environment_level1": "Outdoor > Forest",
+        "environment_level2": "Outdoor > Forest > Day"
+      },
+    "weather":{
+        "weather_level0": "Snowy",
+        "weather_level1": "Snowy > Heavy",
+        "weather_level2": "Snowy > Heavy > Without people"
+      }
+  },
+  {
+    "artist": "Maria Orlova",
+    "year": 2017,
+    "image": "https://images.unsplash.com/photo-1505576391880-b3f9d713dc4f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1287&q=80",
+    "environment":{
+        "environment_level0": "Indoor",
+        "environment_level1": "Indoor > Mid-range",
+        "environment_level2":["Indoor > Mid-range > Plant", "Indoor > Mid-range > Cabinet"]
+      },
+    "location":{
+        "location_level0": "Africa",
+        "location_level1": "Africa > Morocco",
+        "location_level2": "Africa > Morocco > Ourika"
+      },
+    "weather":{
+        "weather_level0": "Sunny",
+        "weather_level1": "Sunny > Normal",
+        "weather_level2": "Sunny > Normal > Without people"
+      }
+  },
+  {
+    "artist": "Arno Smit",
+    "year": 2019,
+    "image": "https://images.unsplash.com/photo-1573385044784-ba6c83bfa408?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=830&q=80",
+    "environment":{
+        "environment_level0": "Indoor",
+        "environment_level1": "Indoor > Mid-range",
+        "environment_level2": "Indoor > Mid-range > Sink"
+      },
+    "location":{
+        "location_level0": "Africa",
+        "location_level1": "Africa > South Africa",
+        "location_level2": "Africa > South Africa > Franschhoek"
+      }
+  },
+  {
+    "artist": "Grant Durr",
+    "year": 2018,
+    "image": "https://images.unsplash.com/photo-1541358800921-39f1c44bdde8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1427&q=80",
+    "environment":{
+        "environment_level0": "Indoor",
+        "environment_level1": "Indoor > Mid-range",
+        "environment_level2": "Indoor > Mid-range > Sofa/chair"
+      },
+    "location":{
+        "location_level0": "Africa",
+        "location_level1": "Africa > South Africa",
+        "location_level2": "Africa > South Africa > Hermanus"
+      }
+  },
+  {
+    "artist": "Jennifer Latuperisa-Andresen",
+    "year": 2020,
+    "image": "https://images.unsplash.com/photo-1515094189972-f6f607878a49?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1287&q=80",
+    "environment":{
+        "environment_level0": "Indoor",
+        "environment_level1": "Indoor > Far",
+        "environment_level2": "Indoor > Far > Sofa/chair"
+      },
+    "location":{
+        "location_level0": "Europe",
+        "location_level1": "Europe > Germany",
+        "location_level2": "Europe > Germany > Büsum"
+      }
+  },
+  {
+    "artist": "Dan Gold",
+    "year": 2018,
+    "image": "https://images.unsplash.com/photo-1515094189972-f6f607878a49?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1287&q=80",
+    "environment":{
+        "environment_level0": "Indoor",
+        "environment_level1": "Indoor > Far",
+        "environment_level2":["Indoor > Far > Sofa/chair", "Indoor > Far > Plant"]
+      },
+    "location":{
+        "location_level0": "America",
+        "location_level1": "America > USA",
+        "location_level2": "America > USA > Brooklyn"
+      },
+    "weather":{
+        "weather_level0": "Sunny",
+        "weather_level1": "Sunny > Normal",
+        "weather_level2": "Sunny > Normal > Without people"
+      }
+  },
+  {
+    "artist": "Naomi Hébert",
+    "year": 2017,
+    "image": "https://images.unsplash.com/photo-1484101403633-562f891dc89a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1474&q=80",
+    "environment":{
+        "environment_level0": "Indoor",
+        "environment_level1": "Indoor > Mid-range",
+        "environment_level2": "Indoor > Mid-range > Sofa/chair"
+      },
+    "location":{
+        "location_level0": "America",
+        "location_level1": "America > USA",
+        "location_level2": "America > USA > Boston"
+      }
+  },
+  {
+    "artist": "Kirill",
+    "year": 2018,
+    "image": "https://images.unsplash.com/photo-1523755231516-e43fd2e8dca5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1335&q=80",
+    "environment":{
+        "environment_level0": "Indoor",
+        "environment_level1": "Indoor > Mid-range",
+        "environment_level2": "Indoor > Mid-range > Sofa/chair"
+      },
+    "location":{
+        "location_level0": "America",
+        "location_level1": "America > Canada",
+        "location_level2": "America > Canada > Quebec"
+      }
+  },
+  {
+    "artist": "avery klein",
+    "year": 2018,
+    "image": "https://images.unsplash.com/photo-1532372576444-dda954194ad0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1287&q=80",
+    "environment":{
+        "environment_level0": "Indoor",
+        "environment_level1": "Indoor > Mid-range",
+        "environment_level2": "Indoor > Mid-range > Sofa/chair"
+      },
+    "location":{
+        "location_level0": "America",
+        "location_level1": "America > USA",
+        "location_level2": "America > USA > Tulsa"
+      }
+  },
+  {
+    "artist": "Jeremy Bishop",
+    "year": 2018,
+    "image": "https://images.unsplash.com/photo-1518495973542-4542c06a5843?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1287&q=80",
+    "environment":{
+        "environment_level0": "Outdoor",
+        "environment_level1": "Outdoor > Forest",
+        "environment_level2": "Outdoor > Forest > Day"
+      },
+    "location":{
+        "location_level0": "America",
+        "location_level1": "America > USA",
+        "location_level2": "America > USA > USA"
+      },
+      "weather":{
+          "weather_level0": "Sunny",
+          "weather_level1": "Sunny > Heavy",
+          "weather_level2": "Sunny > Heavy > Without people"
+        }
+  },
+  {
+    "artist": "Boudhayan Bardhan",
+    "year": 2019,
+    "image": "https://images.unsplash.com/photo-1556648011-e01aca870a81?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1287&q=80",
+    "environment":{
+        "environment_level0": "Outdoor",
+        "environment_level1": "Outdoor > Forest",
+        "environment_level2": "Outdoor > Forest > Day"
+      },
+    "location":{
+        "location_level0": "Asia",
+        "location_level1": "Asia > India",
+        "location_level2": "Asia > India > Darjeeling"
+      },
+      "weather":{
+          "weather_level0": "Sunny",
+          "weather_level1": "Sunny > Normal",
+          "weather_level2": "Sunny > Normal > Without people"
+        }
+  },
+  {
+    "artist": "Sébastien Goldberg",
+    "year": 2019,
+    "image": "https://images.unsplash.com/photo-1555363209-11a72e372ccc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80",
+    "environment":{
+        "environment_level0": "Outdoor",
+        "environment_level1": "Outdoor > Forest",
+        "environment_level2": "Outdoor > Forest > Day"
+      },
+    "location":{
+        "location_level0": "Asia",
+        "location_level1": "Asia > India",
+        "location_level2": "Asia > India > Darjeeling"
+      },
+      "weather":{
+          "weather_level0": "Cloudy",
+          "weather_level1": "Cloudy > Normal",
+          "weather_level2": "Cloudy > Normal > Without people"
+        }
+  },
+  {
+    "artist": "Jonathan Borba",
+    "year": 2019,
+    "image": "https://images.unsplash.com/photo-1551529489-5c97b567c760?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1287&q=80",
+    "environment":{
+        "environment_level0": "Outdoor",
+        "environment_level1": "Outdoor > Forest",
+        "environment_level2": "Outdoor > Forest > Day"
+      },
+    "location":{
+        "location_level0": "America",
+        "location_level1": "America > Brazil",
+        "location_level2": "America > Brazil > Canela"
+      },
+      "weather":{
+          "weather_level0": "Cloudy",
+          "weather_level1": "Cloudy > Normal",
+          "weather_level2": "Cloudy > Normal > Without people"
+        }
+  },
+  {
+    "artist": "Caio Silva",
+    "year": 2019,
+    "image": "https://images.unsplash.com/photo-1562345372-4e701d6adeb5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1287&q=80",
+    "environment":{
+        "environment_level0": "Indoor",
+        "environment_level1": "Indoor > Mid-range",
+        "environment_level2": "Indoor > Mid-range > Plant"
+      },
+      "location":{
+          "location_level0": "America",
+          "location_level1": "America > Brazil",
+          "location_level2": "America > Brazil > Poços de Caldas"
+        },
+      "weather":{
+          "weather_level0": "Cloudy",
+          "weather_level1": "Cloudy > Heavy",
+          "weather_level2": "Cloudy > Heavy > Without people"
+        }
+  },
+  {
+    "artist": "Jacques Nel",
+    "year": 2019,
+    "image": "https://images.unsplash.com/photo-1552937075-967cf58b74a4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+    "environment":{
+        "environment_level0": "Outdoor",
+        "environment_level1": "Outdoor > City",
+        "environment_level2": "Outdoor > City > Day"
+      },
+    "location":{
+        "location_level0": "Africa",
+        "location_level1": "Africa > South Africa",
+        "location_level2": "Africa > South Africa > Johannesburg"
+      },
+      "weather":{
+          "weather_level0": "Sunny",
+          "weather_level1": "Sunny > Normal",
+          "weather_level2": "Sunny > Normal > Without people"
+        }
+  },
+  {
+    "artist": "John O'Nolan",
+    "year": 2017,
+    "image": "https://images.unsplash.com/photo-1491772135384-20292e4b5ea1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80",
+    "environment":{
+        "environment_level0": "Outdoor",
+        "environment_level1": "Outdoor > Water",
+        "environment_level2": "Outdoor > Water > Day"
+      },
+      "location":{
+          "location_level0": "Africa",
+          "location_level1": "Africa > South Africa",
+          "location_level2": "Africa > South Africa > Cape Town"
+      }
+  },
+  {
+    "artist": "Finding Dan | Dan Grinwis",
+    "year": 2018,
+    "image": "https://images.unsplash.com/photo-1529528070131-eda9f3e90919?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1335&q=80",
+    "environment":{
+        "environment_level0": "Outdoor",
+        "environment_level1": "Outdoor > Water",
+        "environment_level2": "Outdoor > Water > Day"
+      },
+      "location":{
+          "location_level0": "Africa",
+          "location_level1": "Africa > South Africa",
+          "location_level2": "Africa > South Africa > Cape Town"
+      },
+      "weather":{
+          "weather_level0": "Sunny",
+          "weather_level1": "Sunny > Normal",
+          "weather_level2": "Sunny > Normal > Without people"
+        }
+  },
+  {
+    "artist": "Tim Johnson",
+    "year": 2018,
+    "image": "https://images.unsplash.com/photo-1525945995886-0ede2bd49ab6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+    "environment":{
+        "environment_level0": "Outdoor",
+        "environment_level1": "Outdoor > City",
+        "environment_level2": "Outdoor > City > Day"
+      },
+      "location":{
+          "location_level0": "Africa",
+          "location_level1": "Africa > South Africa",
+          "location_level2": "Africa > South Africa > Cape Town"
+      },
+      "weather":{
+          "weather_level0": "Sunny",
+          "weather_level1": "Sunny > Normal",
+          "weather_level2": "Sunny > Normal > Without people"
+        }
+  }
+]
