@@ -1,52 +1,161 @@
-<!DOCTYPE HTML>
-<html>
-    <header>
-        <link rel="stylesheet" href="/Example_CSS_Style Templates/style3.css">
-        <link rel="stylesheet" href="table_style.css">
-        <title>Jannie's Website</title>
-    </header>
-    <body>
-        <!---Navigation--->
-        <!--This section of code defines the navigation bar at the top of the page.  The classes used here are defined in the style.css file.-->
-        <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
-            <div class="container">
-                <!--This code defines the "My Webpage" link in the top left corner of the navigation pane-->
-                <a class="navbar-brand" href="./index.html">About</a>
-                <!--This code defines the "List" link in the top right corner of the navigation pane-->
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="./list.html">List</a></li>
-                </ul>
-            </div>
-        </nav>
-        <!--This section defines the middle section of the webpage-->
-        <header class="masthead bg-primary text-white text-center" style="height:100px;">
-            <div class="container d-flex align-items-center flex-column">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>What happened to Tech Labour Market?</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="//fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet" type="text/css">
+</head>
+<body>
+<!-- NavBar -->
+<!-- Navigation Bar -->
+<nav id = "navBar">
+		<img src="logo.png" alt="Logo">
+		<a class="active" href="#navBar">Cover</a>
+		<div class="dropdown">
+			<button class="dropbtn">Sections
+				<i class="fa fa-caret-down"></i>
+			</button>
+			<div class="dropdown-content">
+				<a href="#bodyblock1">Context: Total Layoff Timeline</a>
+				<a href="#bodyblock2">Focus: What Companies Have We Seen on the Layoff News?</a>
+				<a href="#bodyblock3">Factors: Layoff Geographic Distribution in USA</a>
+				<a href="#bodyblock4">Study: Do Bigger Companies Suffer More Layoff?</a>
+				<a href="#bodyblock5">Hope: Hiring Trend (industries, opening roles, etc)</a>
+			</div>
+		</div>
+		<a href="#">Conclusion</a>
+	</nav>
 
-                <!-- This code is for the student name-->
-                <h1 class="masthead-heading text-uppercase mb-0">Jannie Zhou</h1>
-                <!--This code creates the two lines separating the student name from the subtitle-->
-                <div class="divider-custom divider-light">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-line"></div>
-                </div>
-                <!--This code creates the subheading underneath the line dividers-->
-                <p class="masthead-subheading font-weight-light mb-0">Dance Through The World.</p>
-            </div>
-        </header>
-        <section>
 
-            <div>
-                <!-- put your bio paragraph here; remember to use the correct html tags -->
-                <img src="https://github.com/whereareroses/whereareroses.github.io/blob/2d1fb00265dfe4b96c1adb86a2d498ec149a566c/pic.JPG?raw=true" alt="" style="height:400px; width:300px; position: absolute; top: 35%; left: 15%">
-                <p style="position: absolute; top: 50%; left:40%"> Jannie Zhou, a User Experience Researcher & Designer, creative technologist, and dancer.</br>
-                  Specialize in <i>UX Design & Research, data visualization, and physical computing</i>.</br>
-                  "I love dance &#128131;, music &#127926;, fashion &#128087;, and working out &#127947;, especially <i>hip-hop, and basketball</i>."</br>
-                  Talk to me about <b>concerts, how I met Trevor Noah, and gym routines</b>.</br>
-                </br>
-                See my works at <a  href="https://janniezhou.com">janniezhou.com </a></p>
+<!-- Title -->
+  <img src="Logo.png" alt="logo" id = "logo"></img>
+  <hr id = "line1">
+  <a href="#bodyblock1">
+  <div id = "section1box">
+    <h3 class="section-text">Context: </h3>
+    <h3 class="section-text2" id = "section1_2">Total Layoff Timeline</h3>
+  </div>
+  </a>
+  <hr id = "line2">
+  <a href="#bodyblock2">
+  <div id = "section2box">
+    <h3 class="section-text">Focus: </h3>
+    <h3 class="section-text2" id = "section2_2">What Companies Have We Seen on the Layoff News?</h3>
+  </div>
+  </a>
+  <hr id = "line3">
+  <a href="#bodyblock3">
+  <div id = "section3box">
+    <h3 class="section-text">Factors: </h3>
+    <h3 class="section-text2" id = "section3_2">Layoff Geographic Distribution in USA</h3>
+  </div>
+  </a>
+  <hr id = "line4">
+  <a href="#bodyblock4">
+  <div id = "section4box">
+    <h3 class="section-text">Study: </h3>
+    <h3 class="section-text2" id = "section4_2">Do Bigger Companies Suffer More Layoff?</h3>
+  </div>
+  </a>
+  <hr id = "line5">
+  <a href="#bodyblock5">
+  <div id = "section5box">
+    <h3 class="section-text">Hope: </h3>
+    <h3 class="section-text2" id = "section5_2">Hiring Trend (industries, opening roles, etc)</h3>
+  </div>
+  </a>
+  <hr id = "line6">
+  <img src="title.png" alt="title" id = "title"></img>
+  <img src="illustration.png" id = "illustration"></img>
+  <div id = "bodytext">
+  <p class="body-text">As the pace of innovation accelerates and severe inflation occurs in the US economy, the technology industry has been experiencing rapid shifts that are reshaping the job market. Amid these changes, an increasing number of companies are restructuring their workforce to stay competitive. <br><br>
+Here, we are committed to navigating the landscape and providing timely report of the US job market from 2022 to now, shedding light on the factors driving these layoffs, and exploring on the other hand what companies and sub-industries are still hiring. We want to help you stay informed on this critical moment of technology industry.</p>
+  </div>
 
-            </div>
-        </section>
-    </body>
+<!-- Body1 -->
+<div id="bodyblock1">
+  <hr class="blockline">
+<div id = "bodytext1">
+  <h2 class="heading-text" style='margin-top:5vh'>Context: Total Layoff Timeline</h2>
+  <p class="body-text">First, we want to introduce the layoff trend from the past year and discover when the low and high of layoff happened. It turns out the <b>highest layoff</b> points (by <b>employee count</b>) occurred in mid-November 2022 and mid-January 2023.
+<br><br>However, the <b>average percentages of layoff</b> per company at these times are not quite high. This tells there were many tech companies at different scales impacted by layoff at these times instead of solely in several companies.</p>
+  <div class='tableauPlaceholder' id='viz1682982964901' style='position: relative'><noscript><a href='#'><img alt='Total Layoff Trend (1&#47;30&#47;22 - 2&#47;26&#47;23) ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;ED&#47;EDAcopy&#47;TotallayoffsovertimeLine&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='EDAcopy&#47;TotallayoffsovertimeLine' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;ED&#47;EDAcopy&#47;TotallayoffsovertimeLine&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1682982964901');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+  <p class = "body-text"><b>Sources</b><br><a href="https://layoffs.fyi/">Layoffs.fyi</a>
+</div>
+</div>
+<!-- Body2 -->
+<div id="bodyblock2">
+  <hr class="blockline" style="margin-top:25vh">
+  <div id = "bodytext2">
+  <h2 class="heading-text">Focus: What Companies Have We Seen on the Layoff News?</h2>
+  <p class="body-text">
 
+Sad news of corporates laying off employees have been spreading on social media and news platforms over the past months. Many of these companies are in fact the major tech players we are familiar with. For instance:</p>
+
+<li class='body-text'>June 14 2022: <b class="highlight-text">Coincase</b> confirms <b class="highlight-text">18%</b> of their employees to be cut, marking onset of crypto industry layoff trend.</li>
+<li class='body-text'>Nov 4 2022: <b class="highlight-text">Twitter</b> confirms <b class="highlight-text">50%</b> of their employees to be laid off, leading the catastrophic following months of tech industry layoff.</li>
+<li class='body-text'>Nov 9 2022: <b class="highlight-text">Meta</b> follows Twitter with <b class="highlight-text">13%</b> of their layoff, which was not their only layoff. Tech layoff officially reaches its first peak.</li>
+<li class='body-text'>Jan 4 2023: <b class="highlight-text">Amazon</b> confirms more than <b class="highlight-text">18,000</b> employees to be laid off.</li>
+
+<p class="body-text"> Below is a timeline of the other notable layoff examples within the past year.</p>
+<div class='tableauPlaceholder' id='viz1682483008898' style='position: relative'><noscript><a href='#'><img alt='Major Tech Firms Layoff Timeline ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Bi&#47;BigTechLayoffOverview&#47;Sheet2&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='BigTechLayoffOverview&#47;Sheet2' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Bi&#47;BigTechLayoffOverview&#47;Sheet2&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1682483008898');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='1100px';vizElement.style.height='750px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+<p class = "body-text"><b>Sources</b><br><a href="https://www.computerworld.com/article/3685936/tech-layoffs-in-2023-a-timeline.html">Tech layoffs in 2023: A timeline</a>
+<br><a href = "https://www.spglobal.com/marketintelligence/en/news-insights/latest-news-headlines/corporate-layoffs-in-2023-8212-a-timeline-74012248">Corporate layoffs in 2023</a></p>
+<h3 class="heading-text" style='margin-top:5vh'>What Factors Tend To Cause More Layoffs?</h3>
+  <p class="body-text">
+<li class='body-text'><b class="highlight-text">Locations of companies: </b> <br>Companies situated in regions with a high concentration of tech firms often face stiffer competition for talent, customers, and resources.</li>
+<br><li class='body-text'><b class="highlight-text">Sizes of companies: </b> <br>Larger organizations have more layers of management and complex bureaucracy, which can make it difficult to quickly adapt to market changes.</li>
+<br><li class='body-text'><b class="highlight-text">Maturity of companies: </b> <br>Startups and early-stage companies are often focused on rapid growth and innovation, which can lead to aggressive hiring practices. However, as these companies mature, they may need to shift their focus towards profitability and sustainability. This transition can result in a reassessment of workforce needs and lead to layoffs as the company reorganizes its priorities.</li>
+</div>
+</div>
+<!-- Body3 -->
+<div id="bodyblock3">
+  <hr class="blockline" style="margin-top:15vh">
+  <div id = "bodytext3">
+  <h2 class="heading-text">Factors: Layoff Geographic Distribution in USA</h2>
+  <p class = "body-text">During the past year, it is under the assumption that tech heavy regions such as <b>Bay Area</b> (CA), <b>New York</b> and <b>Washington</b> are among most numbers of companies that practice layoff. In addition, some tech rising cities such as <b>Lehi</b> (UT), <b>Nashville</b> (TN) are suffering high layoff. Many highest layoff companies within these states are in fact big post-IPO companies such as Meta (CA), Dell (TX), and Peloton (NY).  <br><br> Besides, with the age reference per state, it seems states on the <b>East coast</b> are of <b>higher median ages</b> and have found more severe layoff (e.g. New Jersey, New York, Delaware). States on the <b>West coast</b>, however, are of <b>lower median ages</b> and have found more severe layoff (e.g. California, Utah, and Colorado).</p>
+  <p class = "body-text" style="font-style: italic">(Please zoom in/out for a more granular view of average % of company laid off at city level. )</p>
+  <div class='tableauPlaceholder' id='viz1682983841121' style='position: relative'><noscript><a href='#'><img alt='What cities have high average layoff rate per company? ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;2Q&#47;2QFW5WYMY&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='path' value='shared&#47;2QFW5WYMY' /> <param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;2Q&#47;2QFW5WYMY&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1682983841121');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+  <p class = "body-text"><b>Sources</b><br><a href="https://news.crunchbase.com/startups/tech-layoffs/">Tech Layoffs: US Companies That Cut Jobs In 2022 and 2023</a>
+  </div>
+</div>
+<!-- Body4 -->
+<div id="bodyblock4">
+  <hr class="blockline" style="margin-top:5vh">
+  <div id = "bodytext4">
+    <h2 class="heading-text">Study: Do Bigger Companies Suffer More Layoff?</h2>
+    <p class = "body-text">(Bigger companies in our study are defined by Post-IPO Companies)<br><br>To answer this question, let’s take a look at the layoff trend in the US between post-IPO companies and pre-IPO companies. <br><br>For the graph below we could tell even though at the beginning of the layoff timeline, pre-IPO companies seem to cut more employees, the recent trend shows that post-IPO companies (big tech companies) are rapidly catching up in the number of employees they lay off.</p>
+    <div class='tableauPlaceholder' id='viz1682985725704' style='position: relative'><noscript><a href='#'><img alt='Total Layoffs over January 2022 to February 2023Segmented by months ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;ED&#47;EDAcopy&#47;TotallayoffsovertimeBar&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='EDAcopy&#47;TotallayoffsovertimeBar' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;ED&#47;EDAcopy&#47;TotallayoffsovertimeBar&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1682985725704');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height='400px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+    <p class = "body-text"><b>Sources</b><br><a href="https://layoffs.fyi/">Layoffs.fyi</a>
+    <br><a href = "https://www.kaggle.com/datasets/salimwid/technology-company-layoffs-20222023-data?resource=download">Technology Company Layoffs (2022-2023)</a></p>
+  </div>
+</div>
+
+
+
+
+
+<!-- Graph 1 -->
+<!-- <div id = "bodyblock2">
+<div id = "bodytext3">
+  <h2 class="heading-text" style='margin-top:5vh'>Layoff Geographic Distribution in USA</h2>
+  <p class="body-text" style='width:80%'> During the past year, tech heavy states California, New York and Washington are placed the top 3 most numbers of companies that practice layoff. Many highest layoff companies within these states are in fact big post-IPO companies such as Meta (CA), Dell (TX), and Peloton (NY).   </p>
+</div>
+  <div class='tableauPlaceholder' id='viz1682393734612' style='position: absolute'><noscript><a href='#'><img alt='Layoff Company v. States ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;DF&#47;DFMY3545S&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='path' value='shared&#47;DFMY3545S' /> <param name='toolbar' value='no' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;DF&#47;DFMY3545S&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='no' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1682393734612');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='1100px';vizElement.style.height='700px';                 var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+  <p class="body-text" style='margin-left:10vw'><b>Sources</b><br><a href="https://news.crunchbase.com/startups/tech-layoffs/">Tech Layoffs: US Companies That Cut Jobs In 2022 and 2023</a></p>
+</div> -->
+
+<!-- Graph 2 -->
+<!-- <div id = "bodyblock3">
+  <div id = "bodytext4">
+    <h2 class="heading-text" style='margin-top:5vh'>Do Bigger Companies Suffer More Layoff? </h2>
+    <p class="body-text" style='width:100%'> (Bigger companies in our study are defined by Post-IPO Companies)<br>
+To answer this question, let’s take a look at the layoff trend in the US between post-IPO companies and pre-IPO companies.<br>
+For the graph below we could tell even though at the beginning of the layoff timeline, pre-IPO companies seem to cut more employees, the recent trend shows that post-IPO companies (big tech companies) are rapidly catching up in the number of employees they lay off.</p>
+  </div>
+<div class='tableauPlaceholder' id='viz1682488377161' style='position: relative'><noscript><a href='#'><img alt='Total Layoffs over January 2022 to February 2023Segmented by month ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;ED&#47;EDAcopy&#47;TotallayoffsovertimeBar&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='EDAcopy&#47;TotallayoffsovertimeBar' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;ED&#47;EDAcopy&#47;TotallayoffsovertimeBar&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1682488377161');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='1100px';vizElement.style.height='500px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+</div> -->
+  <script src="script.js"></script>
+</body>
 </html>
