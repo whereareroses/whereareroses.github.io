@@ -93,7 +93,12 @@ nav img {
   text-align: left;
   font-weight: 700;
   color: #0e0e52;
-  /* margin-top: 11vh; */
+}
+.figma-text{
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  font-weight: 700;
+  color: #0e0e52;
 }
 .section-text{
   font-family: 'Roboto';
@@ -276,32 +281,15 @@ nav img {
   top: 610%;
   position: absolute;
 }
-#bodytext{
-  margin-top: 110vh;
-  display: block;
-  margin-left: 10vw;
-  width: 80%;
+#bodyblock5{
+  top: 710%;
+  position: absolute;
 }
-#bodytext1{
-  display: block;
-  position:relative;
-  margin-left: 10vw;
-  margin-top: 5vh;
-  width: 80%;
+#conclusion{
+  top: 1150%;
+  position: absolute;
 }
-#bodytext2{
-  display: block;
-  position:relative;
-  margin-left: 10vw;
-  width: 80%;
-}
-#bodytext3{
-  display: block;
-  position:relative;
-  margin-left: 10vw;
-  width: 80%;
-}
-#bodytext4{
+.bodytext{
   display: block;
   position:relative;
   margin-left: 10vw;
